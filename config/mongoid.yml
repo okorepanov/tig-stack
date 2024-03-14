@@ -1,0 +1,19 @@
+development:
+  clients:
+    default:
+      database: projector1_development
+      hosts:
+        - mongo:27017
+      options:
+        connect: :direct
+
+test:
+  clients:
+    default:
+      database: projector1_test
+      hosts:
+        - mongo:27017
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
