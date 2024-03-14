@@ -8,6 +8,9 @@ gem "rails", "~> 7.0.8", ">= 7.0.8.1"
 gem 'mongoid'
 gem 'elasticsearch-model'
 
+gem 'faker'
+gem "factory_bot_rails"
+
 gem "sprockets-rails"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
