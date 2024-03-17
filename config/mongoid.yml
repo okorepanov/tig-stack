@@ -1,7 +1,7 @@
 development:
   clients:
     default:
-      database: projector1_development
+      database: tig_stack_development
       hosts:
         - mongo:27017
       options:
@@ -10,7 +10,7 @@ development:
 test:
   clients:
     default:
-      database: projector1_test
+      database: tig_stack_test
       hosts:
         - mongo:27017
       options:
